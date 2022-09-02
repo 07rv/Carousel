@@ -12,7 +12,7 @@ const firstCarousel = () => {
     <Carousel fade controls={false}>
       <Carousel.Item interval={4000}>
         <img
-          height="288" width="388"
+          height="400" width="388"
           className="d-block w-100"
           src={img1}
           alt="First slide"
@@ -24,7 +24,7 @@ const firstCarousel = () => {
       </Carousel.Item>
       <Carousel.Item interval={4000}>
         <img
-          height="288" width="388"
+          height="400" width="388"
           className="d-block w-100"
           src={img2}
           alt="Second slide"
@@ -37,7 +37,7 @@ const firstCarousel = () => {
       </Carousel.Item>
       <Carousel.Item interval={4000}>
         <img
-          height="288" width="388"
+          height="400" width="388"
           className="d-block w-100"
           src={img3}
           alt="Third slide"
@@ -52,7 +52,7 @@ const firstCarousel = () => {
       </Carousel.Item>
       <Carousel.Item interval={4000}>
         <img
-          height="288" width="388"
+          height="400" width="388"
           className="d-block w-100"
           src={img4}
           alt="First slide"
@@ -62,10 +62,9 @@ const firstCarousel = () => {
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
-
       <Carousel.Item interval={4000}>
         <img
-          height="288" width="388"
+          height="400" width="388"
           className="d-block w-100"
           src={img5}
           alt="First slide"
